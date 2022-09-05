@@ -19,7 +19,11 @@ const forecast = (latitude, longitude, callback) => {
           body.current.temperature +
           " degrees out.There is a " +
           body.current.precip +
-          "% chance of rain."
+          "% chance of rain.Speed of wind is " +
+          body.current.wind_speed +
+          "km/h and Humidity is " +
+          body.current.humidity +
+          "%"
       );
     }
   });
