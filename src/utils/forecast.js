@@ -17,7 +17,7 @@ const forecast = (latitude, longitude, callback) => {
         body.current.weather_descriptions[0] +
           " until evening.It is currently " +
           body.current.temperature +
-          " degrees out.There is a " +
+          " degrees out.There is " +
           body.current.precip +
           "% chance of rain.Speed of wind is " +
           body.current.wind_speed +
